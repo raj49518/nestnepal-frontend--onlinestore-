@@ -15,7 +15,6 @@ export const MyRoutes = () => {
         <Route path='/' element={<Navbar/>}/>
         <Route path='/product/:id' element={<ProductDetails/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/card' element={<Card/>}/>
     </Routes>
     </BrowserRouter>
     
